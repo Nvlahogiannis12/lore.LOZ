@@ -161,3 +161,11 @@ ctx.beginPath();
 ctx.arc(500, 250, 6, 0, Math.PI * 2); // x, y, radius, startAngle, endAngle
 ctx.fillStyle = "white";
 ctx.fill();
+
+
+
+//TimeLine Split
+ctx.fillStyle = "goldenrod";   // fill color
+ctx.fillRect(50, 50, 21, 21);  // x, y, width, height
+ctx.fillStyle = "white"
+ctx.fillRect(54, 54, 13, 13)
